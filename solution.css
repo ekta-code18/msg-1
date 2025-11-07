@@ -1,0 +1,66 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    min-height:100vh;
+    width:100vw;
+    background-image: url("https://i.postimg.cc/9XLbwtFH/airplane.avif");
+    background-position:center;
+    background-size:cover;
+    position:relative;
+}
+h1{
+    font-size: 70px;
+    color:rgb(119, 136, 153);
+    color:rgba(245, 222, 179, 0.596);
+}
+h2{
+    margin-top: 20PX;
+    color:rgb(119, 136, 153);
+    font-size: 42px;
+    border: solid transparent;
+}
+p{
+    margin-top: 20PX;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color:rgba(245, 222, 179, 0.596);
+    font-weight: 900;
+}
+.one{
+    margin:100px;
+    height:50vh;
+    width:50vh;
+}
+.two{
+    margin:100px;
+    height:50vh;
+    width:50vh;
+}
+.three{
+    margin:100px;
+    height:50vh;
+    width:50vh;
+}
+.footer{
+    margin-top: 50px;
+    height:50px;
+    animation-name:ekta;
+    animation-duration:8s;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+    overflow:hidden;
+    animation-delay:1s;
+}
+@keyframes ekta {
+    from{
+        margin-left:90%;
+    }
+    to{
+        margin-left:-150%;
+    }
+}
