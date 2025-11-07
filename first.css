@@ -1,0 +1,102 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    width: 100vw;
+    background-image:url("https://i.postimg.cc/x1SDZcKh/photo-1568832359672-e36cf5d74f54.avif");
+    background-position:center;
+    background-size:cover;
+    position:relative;
+}
+.epa1{
+    width:100%;
+    padding: 10px;
+}
+h1{
+    color:aliceblue;
+    margin-left:550px;
+    white-space: nowrap;;
+    font-size: 50px;
+    animation-name: ekta;
+    animation-duration:8s;
+    animation-iteration-count: infinite;
+    animation-timing-function:linear;
+    overflow: hidden;
+    animation-delay:2s;
+}
+@keyframes ekta {
+        from{
+            margin-left:100%;
+    }
+    to{
+        margin-left:-60%;
+    }  
+}
+.reason{
+    height:100vh;
+    width:100vw;
+}
+.epa2{
+    margin-top:100px;
+    margin-right:20px;
+    display:flex;
+    justify-content:end;
+    align-items:end;
+    box-sizing:border-box;
+}
+.epa2 p {
+    color:rgb(30, 67, 30);
+    font-weight:900;
+    margin:50px;
+    padding:30px;
+    font-size:30px;
+    height:500px;
+    width:700px;
+    border:1px solid black;
+    letter-spacing:normal;
+    line-height: 50px;
+    font-family:'Times New Roman', Times, serif;
+    transition-property: all;
+    transition-duration:3s;
+    transition-timing-function:ease-out;
+}
+.epa2 p:hover{
+    box-shadow: 0px 0px 40px white;
+    transform:scale(1.2);
+}
+.epa2 p img{
+    height:350px;
+    width:630px;
+}
+.first{
+    height:100vh;
+    width:100vw;
+}
+.epa2 p .gas{
+    display: inline;
+}
+.footer {
+     width:10%;
+     display:flex;
+     justify-content:end;
+     align-items:end;
+
+}
+.btn{
+    margin:10%;
+    padding:5%;
+    color:#fff;
+    text-decoration: none;
+    background:none;
+    border: 2px solid black;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.2s;
+}
+.btn:hover{
+    transform:scale(1.3);
+}
