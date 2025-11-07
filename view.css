@@ -1,0 +1,11 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width:100%;
+    background-image: url("https://i.postimg.cc/ydZxRG7y/one-more.avif");
+    background-size: cover;
+}
