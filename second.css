@@ -1,66 +1,58 @@
-*{
-    margin:0px;
-    padding:0px;
-    box-sizing:border-box;
+  *{ 
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
 }
-body{
-    min-height:100vh;
-    width:100vw;
-    background-image: url("https://i.postimg.cc/9XLbwtFH/airplane.avif");
-    background-position:center;
-    background-size:cover;
-    position:relative;
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("https://i.postimg.cc/wB7FB3SJ/omg.avif");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display:grid;
+}   
+.content{
+    width:90%;
+    margin:auto;
+    top:50%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    text-align: center;
 }
-h1{
-    font-size: 70px;
-    color:rgb(119, 136, 153);
-    color:rgba(245, 222, 179, 0.596);
+.content h1{
+    color: #fff;
+    font-size:40px;
 }
-h2{
-    margin-top: 20PX;
-    color:rgb(119, 136, 153);
-    font-size: 42px;
-    border: solid transparent;
+.content p{
+    color: #fff;
+    font-size: 22px;
+    line-height: 50px;
 }
-p{
-    margin-top: 20PX;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 32px;
-    color:rgba(245, 222, 179, 0.596);
-    font-weight: 900;
+.footer {
+     width:10%;
+     display:flex;
+     justify-content:end;
+     align-items:end;
+
 }
-.one{
-    margin:100px;
-    height:50vh;
-    width:50vh;
+.btn{
+    margin:10%;
+    padding:5%;
+    color:black;
+    text-decoration: none;
+    background:none;
+    border: 2px solid black;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    transition-delay: 0.2s;
 }
-.two{
-    margin:100px;
-    height:50vh;
-    width:50vh;
-}
-.three{
-    margin:100px;
-    height:50vh;
-    width:50vh;
-}
-.footer{
-    margin-top: 50px;
-    height:50px;
-    animation-name:ekta;
-    animation-duration:8s;
-    animation-iteration-count:infinite;
-    animation-timing-function:linear;
-    overflow:hidden;
-    animation-delay:1s;
-}
-@keyframes ekta {
-    from{
-        margin-left:90%;
-    }
-    to{
-        margin-left:-150%;
-    }
+.btn:hover{
+    transform:scale(1.3);
 }
